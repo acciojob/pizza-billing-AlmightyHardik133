@@ -40,7 +40,12 @@ public class Pizza {
     		return;
     	}
     	this.addExtraToppings = true;
-    	this.price += 70;
+    	if(isVeg) {
+    		this.price += 70;
+    	} else {
+    		this.price += 120;
+    	}
+    	
     }
 
     public void addTakeaway(){
