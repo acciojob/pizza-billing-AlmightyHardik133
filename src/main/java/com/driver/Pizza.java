@@ -16,7 +16,7 @@ public class Pizza {
     		this.bill += "Base Price Of The Pizza: 300\n" ;
     	} else {
     		this.price += 400;
-    		this.bill += "Base Price Of The Pizza: 300\n";
+    		this.bill += "Base Price Of The Pizza: 400\n";
     	}
     }
 
